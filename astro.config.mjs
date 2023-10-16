@@ -3,6 +3,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://cri-lab.github.io',
+  base: '/crc-documentation',
   integrations: [
     starlight({
       title: "CRC Documentation",
