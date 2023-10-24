@@ -23,27 +23,19 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "UID Tool", items: [
               {
-                label: "Data",
-                link: "/data-management/uid-tool/guides/data/"
+                label: "Accessing UID Tool",
+                link: "/data-management/uid-tool/guides/accessing/"
               },
               {
-                label: "Data Curation",
+                label: "Record Curation",
                 link: "/data-management/uid-tool/guides/data-curation/"
               },
               {
-                label: "Data Filtering",
-                link: "/data-management/uid-tool/guides/data-filtering/"
+                label: "Managing Record",
+                link: "/data-management/uid-tool/guides/data-management/"
               },
               {
-                label: "Updating Data",
-                link: "/data-management/uid-tool/guides/updating-data/"
-              },
-              {
-                label: "Accounts",
-                link: "/data-management/uid-tool/guides/accounts/"
-              },
-              {
-                label: "Projects",
+                label: "Viewing Projects",
                 link: "/data-management/uid-tool/guides/projects/"
               },
             ] 

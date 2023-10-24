@@ -1,11 +1,15 @@
 ---
-title: Filter Data with UID Tool
+title: Mangaging Data with UID Tool
 description: Information About UID Tool for Data Cataloging
 author: Skyler Kimura
 ---
 
-## [Unique Identifier - Data](https://coastal5.soest.hawaii.edu/uid-tool/data/?data-name=Example&from-date=2023-10-13&to-date=2023-10-12&email=test123%40gmail.com&data-location-type=coastal6&invenio=true&project=2&uid=)
+- Records are the information that represents the datasets in the UID Tool. There is no data or datasets stored inside the UID Tool, so no data will or official metadata will be modified. 
 
+
+## <a href="https://coastal5.soest.hawaii.edu/uid-tool/data/" target="_blank">Querying Records</a>
+
+![UID Tool](../../../../../assets/uid-tool/uid-tool-15.png)
 
 ### Filter by dataset name
 ![Step 1 screenshot](https://images.tango.us/workflows/7c62f4ed-48f1-4ed0-91d7-117698440824/steps/67c89559-07f2-45e5-b3bf-38e6f7f2b792/dd297fdd-98ba-4ea3-b512-923d46a9f3ad.png?crop=focalpoint&fit=crop&fp-x=0.0834&fp-y=0.1779&fp-z=2.2450&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=29&mark-y=296&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz0zOTImaD01OCZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
@@ -67,5 +71,31 @@ author: Skyler Kimura
 
 <br/>
 
-***
-Created with [Tango.us](https://tango.us?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
+## Exporting Records to CSV
+- Button is located at the top left dataset table page of the UID Tool
+- **Filter before exporting**
+    - Only the information for the datasets that are filtered and displayed on the table will be exported
+<br/>
+- Click the button to get a file directory dialog prompt to save the file on your hard drive
+![Export to CSV](../../../../../assets/uid-tool/uid-tool-11.png)
+- Save the output.csv in your desired location
+![File Directory Dialog](../../../../../assets/uid-tool/uid-tool-12.png)
+
+---
+
+## <a href="https://coastal5.soest.hawaii.edu/uid-tool/data/update/" target="_blank">Updating Records</a>
+**Must be logged in to update data**
+
+### How to Update Data
+![Update Data Table](../../../../../assets/uid-tool/uid-tool-13.png)
+- Note: You can only update data from the project that you are a part of
+
+### Dataset Form
+![Update Data Form](../../../../../assets/uid-tool/uid-tool-14.png)
+For more details on the fields checkout the [data curation guide](crc-documentation/data-management/uid-tool/guides/updating-data)<br>
+If needed, you can edit the fields below:
+- Dataset name
+- Storage medium type that the dataset is stored in
+- Specific location that the dataset is stored<br>If the storage medium has been changed, please follow the format explained in [data curation guide](crc-documentation/data-management/uid-tool/guides/updating-data) for location field
+- Description of the dataset
+- If the dataset has been moved to Invenio<br>Most likely will not be unchecked because data should stay in Invenio

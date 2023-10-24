@@ -4,7 +4,7 @@ description: Projects User Guide
 ---
 ### Listing Projects
 ![Project Page](../../../../../assets/uid-tool/uid-tool-09.png)
- 1. Click "Projects" in the Navbar or navigate to https://coastal5.soest.hawaii.edu/uid-tool/project/
+ 1. Click "Projects" in the navbar or navigate to https://coastal5.soest.hawaii.edu/uid-tool/project/
 
 ### Project Fields
  - Project Name: Official Name of the project
