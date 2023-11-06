@@ -28,11 +28,11 @@ export default defineConfig({
               },
               {
                 label: "Record Curation",
-                link: "/data-management/uid-tool/guides/data-curation/"
+                link: "/data-management/uid-tool/guides/record-curation/"
               },
               {
-                label: "Managing Record",
-                link: "/data-management/uid-tool/guides/data-management/"
+                label: "Managing Records",
+                link: "/data-management/uid-tool/guides/record-management/"
               },
               {
                 label: "Viewing Projects",
@@ -40,10 +40,10 @@ export default defineConfig({
               },
             ] 
           },
-          { label: "Invenio RDM", items: [
+          { label: "Zenodo RDM", items: [
             {
-              label: "Uploading Data",
-              link: "/data-management/invenio/guides/uploading-data/"
+              label: "Creating Record",
+              link: "/data-management/invenio/guides/creating-record/"
             }
           ]}
         ],
