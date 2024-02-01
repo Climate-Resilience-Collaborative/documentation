@@ -12,7 +12,7 @@ export default defineConfig({
         light: "/public/crc-logo.svg",
         dark: "/public/crc-logo.svg",
       },
-      favicon: "/public/crc-logo.svg",
+      favicon: "/crc-logo.svg",
       social: {
         github: "https://github.com/CRI-lab",
       },

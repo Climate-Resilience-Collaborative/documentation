@@ -12,7 +12,7 @@ author: Skyler Kimura
 - 10 TB Storage that is accessible anywhere in the world as long as UH Login
 
 ### Why do we need it?
-- We will be replacing coastal6 and Google drive with KoaCloud
+- We will be replacing coastal6 and Google drive with KoaCloud as our main shared storage
 
 ### More information
 - You can find more information about pricing and how to acquire more storage for KoaCloud [here](https://datascience.hawaii.edu/koa-research-storage-service/)
