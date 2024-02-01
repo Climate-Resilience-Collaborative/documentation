@@ -5,12 +5,21 @@ author: Skyler Kimura
 ---
 
 
-![UID Tool](../../../../../assets/metadata-tool/metadata-tool-01.png)
+![Metadata Tool](../../../../../assets/metadata-tool/metadata-tool-01.png)
 
 ### Field Definitions
 ![Record Fields](../../../../../assets/metadata-tool/metadata-tool-02.png)
  - Record Name: Name of the record related to the dataset 
- - CRCID: The unique identity associated with CRC for the dataset
+- CRCID: A unique identifier that will be utilized to keep track of CRC associated data
+    - Ex. CRC20231024001GDTS
+    - Format of the CRCID: CRCYYYYMMDD000XXYY
+        - CRC: Identifies that this ID is associated to CRC
+        - YYYY: Year that the record for the data has been created
+        - MM: Month that the record for the data has been created
+        - DD: Date that the record for the data has been created
+        - 000: ID of the record stored within the database that increments each time a record is created
+        - XX: Primary Project Code
+        - YY: Secondary Project Code
  - Creator: Name of user who curated the record
  - Keywords: Keywords that are related to the dataset
  - Location Type: The location medium type that the dataset has been stored
@@ -24,11 +33,10 @@ author: Skyler Kimura
  - Updated: Date and time record has been **updated** in the Metadata Tool
  - Description: Additional metadata for the dataset name and description to further identify what the dataset means
 
+ Note: You can query the records based on the fields above. You can checkout the record querying guide over [here](/crc-documentation/data-management/metadata-tool/guides/record-curation)
 
-## <a href="https://crc-metadata-tool.fly.dev/records/create" target="_blank">How to Curate Record in UID Tool?</a>
 
-
-[View most recent version on Tango.us](https://app.tango.us/app/workflow/e2aed1bc-5fb3-4842-8746-1fa30482f3e8?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
+## <a href="https://crc-metadata-tool.fly.dev/records/create" target="_blank">How to Curate Record in Metadata Tool?</a>
 
 ### 1. In the navigation bar, click on Records
 ![Step 1 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/58d4a4f8-cd47-4697-bd4f-f0b8315495c8/4bebea58-3387-42c4-935b-20e2348f2fac.png?crop=focalpoint&fit=crop&fp-x=0.1064&fp-y=0.0328&fp-z=2.8936&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=290&mark-y=50&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz0xNTgmaD03NCZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
@@ -40,7 +48,10 @@ author: Skyler Kimura
 
 ### 3. Type in name that is associated with the dataset
 ![Step 3 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/772fb08a-70a6-4bc7-8528-7a36314fac40/f0240f71-29dd-4d3c-b96b-d9d7510c2127.png?crop=focalpoint&fit=crop&fp-x=0.4666&fp-y=0.2687&fp-z=1.4386&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=259&mark-y=317&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz02ODImaD03MyZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
-
+- **IMPORTANT** To ensure efficient organization of your dataset, it is essential to compress multiple files associated with a single dataset before uploading. Please use common compression formats like .zip or .tar.gz (tarball).
+    - Exmample: Compressing files associated with a Shapefile
+    - Compress shapefile with auxilary and metadata files needed to read/access the shapefile (CPG, DBF, PRJ, LOCK, SHX)
+- You do not need to compress a dataset if it is only a single file
 
 ### 4. Type a description of the dataset
 ![Step 4 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/cc3b9f9a-51d1-4396-9acd-5a06e63443f0/c6855df7-2cde-4988-9a59-429c656e6bd5.png?crop=focalpoint&fit=crop&fp-x=0.4666&fp-y=0.3920&fp-z=1.4386&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=259&mark-y=390&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz02ODImaD0xMzYmZml0PWNyb3AmY29ybmVyLXJhZGl1cz0xMA%3D%3D)
@@ -58,7 +69,7 @@ author: Skyler Kimura
 ### 7. Select a Primary Project for the dataset
 ![Step 7 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/dd9ea111-53f7-4a7d-a520-37b87847134d/3f61109d-0f78-4477-8a0d-1b2cbafd2fac.png?crop=focalpoint&fit=crop&fp-x=0.4666&fp-y=0.7144&fp-z=1.4386&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=259&mark-y=503&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz02ODImaD03MyZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
 - The project 1 dropdown will be populated by the projects that you are assigned
-- To see the list of all projects, you can view the projects [here](/crc-documentation/data-management/uid-tool/guides/projects/)
+- To see the list of all projects, you can view the projects [here](/crc-documentation/data-management/metadata-tool/guides/projects/)
 - If you need to access to another project, please email skyler8@hawaii.edu or mbarbee@hawaii.edu
 - Dataset needs to have at least one associated project. If there's not a specific project associated to the dataset, choose General Data.
 
@@ -99,12 +110,6 @@ Note: This field is only a note for the location of your dataset that will be st
 - Note: Type out explicitly the device name to fully describe where the dataset is stored. This information will help you and other identify where the datasets are stored.
 
 
-### 11. Type in the file name
-![Step 11 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/fb2ed2a2-22a3-45b5-bd5f-034ef8bbe63a/9d415d4d-8542-47f8-8736-5c5eb307405f.png?crop=focalpoint&fit=crop&fp-x=0.4666&fp-y=0.8070&fp-z=1.4386&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=259&mark-y=625&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz02ODImaD03MyZmaXQ9Y3JvcCZjb3JuZXItcmFkaXVzPTEw)
-- **IMPORTANT** To ensure efficient organization of your dataset, it is essential to compress multiple files associated with a single dataset before uploading. Please use common compression formats like .zip or .tar.gz (tarball).
-    - Exmample: Compressing files associated with a Shapefile
-    - Compress shapefile with auxilary and metadata files needed to read/access the shapefile (CPG, DBF, PRJ, LOCK, SHX)
-- You do not need to compress a dataset if it is only a single file
 
 ### 12. Check Do you plan on uploading to Zenodo?
 ![Step 12 screenshot](https://images.tango.us/workflows/e2aed1bc-5fb3-4842-8746-1fa30482f3e8/steps/3a03f5af-7b24-45e5-9c4d-7eb8c28ba12a/59701ffd-0332-4c20-a995-7b1b77c73e3b.png?crop=focalpoint&fit=crop&fp-x=0.6489&fp-y=0.8587&fp-z=3.0834&w=1200&border=2%2CF4F2F7&border-radius=8%2C8%2C8%2C8&border-radius-inner=8%2C8%2C8%2C8&blend-align=bottom&blend-mode=normal&blend-x=0&blend-w=1200&blend64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmstdjIucG5n&mark-x=555&mark-y=472&m64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL2JsYW5rLnBuZz9tYXNrPWNvcm5lcnMmYm9yZGVyPTQlMkNGRjc0NDImdz05MCZoPTkwJmZpdD1jcm9wJmNvcm5lci1yYWRpdXM9MTA%3D)

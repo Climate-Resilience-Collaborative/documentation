@@ -21,31 +21,35 @@ export default defineConfig({
           label: "Data Management",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "UID Tool", items: [
+            { label: "Koa Cloud", items: [
+              {
+                label: "About KoaCloud",
+                link: "/data-management/koacloud/"
+              },
+              {
+                label: "Accessing KoaCloud",
+                link: "/data-management/koacloud/guides/accessing/"
+              },
+            ]},
+            { label: "Metadata Tool", items: [
               {
                 label: "Accessing UID Tool",
-                link: "/data-management/uid-tool/guides/accessing/"
+                link: "/data-management/metadata-tool/guides/accessing/"
               },
               {
                 label: "Record Curation",
-                link: "/data-management/uid-tool/guides/record-curation/"
+                link: "/data-management/metadata-tool/guides/record-curation/"
               },
               {
                 label: "Managing Records",
-                link: "/data-management/uid-tool/guides/record-management/"
+                link: "/data-management/metadata-tool/guides/record-management/"
               },
               {
                 label: "Viewing Projects",
-                link: "/data-management/uid-tool/guides/projects/"
+                link: "/data-management/metadata-tool/guides/projects/"
               },
             ] 
           },
-          { label: "Zenodo RDM", items: [
-            {
-              label: "Creating Record",
-              link: "/data-management/invenio/guides/creating-record/"
-            }
-          ]}
         ],
         },
       ],
