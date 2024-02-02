@@ -33,7 +33,9 @@ author: Skyler Kimura
  - Updated: Date and time record has been **updated** in the Metadata Tool
  - Description: Additional metadata for the dataset name and description to further identify what the dataset means
 
- Note: You can query the records based on the fields above. You can checkout the record querying guide over [here](/crc-documentation/data-management/metadata-tool/guides/record-curation)
+ Note: You can query the records based on the fields above. You can checkout the record querying guide over [here](/crc-documentation/data-management/metadata-tool/guides/record-curation)<br>
+ All fields for this form requires an entry. If there is ambiguity within the description of the field, please email skyler8@hawaii.edu, but for now you can just enter
+ a temporary placeholder for now and edit it with the actual information later. 
 
 
 ## <a href="https://crc-metadata-tool.fly.dev/records/create" target="_blank">How to Curate Record in Metadata Tool?</a>

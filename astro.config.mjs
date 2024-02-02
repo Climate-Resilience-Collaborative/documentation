@@ -33,7 +33,7 @@ export default defineConfig({
             ]},
             { label: "Metadata Tool", items: [
               {
-                label: "Accessing UID Tool",
+                label: "Accessing Metadata Tool",
                 link: "/data-management/metadata-tool/guides/accessing/"
               },
               {
