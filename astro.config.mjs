@@ -48,8 +48,13 @@ export default defineConfig({
                 label: "Viewing Projects",
                 link: "/data-management/metadata-tool/guides/projects/"
               },
-            ] 
-          },
+            ]},
+            { label: "Geoserver", items: [
+              {
+                label: "Adding WMS Layer to ArcMap and QGIS",
+                link: "/geoserver/guides/wms_arcgis/"
+              },
+          ]},
         ],
         },
       ],
