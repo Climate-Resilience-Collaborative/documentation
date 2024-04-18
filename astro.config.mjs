@@ -30,6 +30,10 @@ export default defineConfig({
                 label: "Accessing KoaCloud",
                 link: "/data-management/koacloud/guides/accessing/"
               },
+              {
+                label: "Unlinking Sync Sync Client",
+                link: "/data-management/koacloud/guides/unlinking-sync-client/"
+              },
             ]},
             { label: "Metadata Tool", items: [
               {
@@ -47,6 +51,10 @@ export default defineConfig({
               {
                 label: "Viewing Projects",
                 link: "/data-management/metadata-tool/guides/projects/"
+              },
+              {
+                label: "Batch Record Creation",
+                link: "/data-management/metadata-tool/guides/batch-record/"
               },
             ]},
             { label: "Geoserver", items: [
