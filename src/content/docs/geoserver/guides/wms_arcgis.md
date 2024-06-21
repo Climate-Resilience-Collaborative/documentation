@@ -4,6 +4,10 @@ description: How to add layer from WMS Server in QGIS and ArcMap
 author: Skyler Kimura
 ---
 
+# WMS URLs For CRC Geoservers
+ - https://crcgeo.soest.hawaii.edu/geoserver/ows?version=1.3.0 (SLR Viewer Layers)
+ - https://crc-geoserver2.soest.hawaii.edu/geoserver/ows?version=1.3.0 (Historical Mosaics)
+
 # Adding WMS Connection to QGIS
 
 ![QGIS](../../../../assets/geoserver/geoserver-02.png)
@@ -12,7 +16,7 @@ author: Skyler Kimura
 
 ![WMS Connection](../../../../assets/geoserver/geoserver-01.png)
 3. Enter a name for WMS connection (Ex. crcgeo)
-4. Enter "https://crcgeo.soest.hawaii.edu/geoserver/ows?version=1.3.0" as the URL for WMS connection
+4. Enter "https://crc-geoserver2.soest.hawaii.edu/geoserver/ows?version=1.3.0" as the URL for WMS connection
 5. Click "Ok"
 
 ![Browser Panel](../../../../assets/geoserver/geoserver-03.png)
@@ -24,7 +28,7 @@ author: Skyler Kimura
 
 ![ArcMap](../../../../assets/geoserver/geoserver-05.png)
 1. In "Catalog" pane, click add WMS Server
-2. Enter "https://crcgeo.soest.hawaii.edu/geoserver/ows?version=1.3.0" in URL input box
+2. Enter "https://crc-geoserver2.soest.hawaii.edu/geoserver/ows?version=1.3.0" in URL input box
 
 ![Add connection dialogue](../../../../assets/geoserver/geoserver-06.png)
 3. Test the connection by clicking "Get Layers" button

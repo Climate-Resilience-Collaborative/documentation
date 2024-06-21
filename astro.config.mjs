@@ -62,6 +62,10 @@ export default defineConfig({
                 label: "Adding WMS Layer to ArcMap and QGIS",
                 link: "/geoserver/guides/wms_arcgis/"
               },
+              {
+                label: "Geoimporter",
+                link: "/geoserver/guides/geoserver/"
+              }
           ]},
         ],
         },
