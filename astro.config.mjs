@@ -64,8 +64,14 @@ export default defineConfig({
               },
               {
                 label: "Geoimporter",
-                link: "/geoserver/guides/geoserver/"
+                link: "/geoserver/guides/geoimporter/"
               }
+          ]},
+            { label: "Wordpress", items: [
+              {
+                label: "Creating News Articles",
+                link: "/wordpress/guides/news-article/"
+              },
           ]},
         ],
         },
