@@ -63,8 +63,8 @@ export default defineConfig({
                 link: "/geoserver/guides/wms_arcgis/"
               },
               {
-                label: "Geoimporter",
-                link: "/geoserver/guides/geoimporter/"
+                label: "Layer Management",
+                link: "/geoserver/guides/layer_management/"
               }
           ]},
             { label: "Wordpress", items: [
