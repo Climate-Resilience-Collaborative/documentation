@@ -24,6 +24,7 @@ Most of the fields will be filled in because there is a .env file provided with 
 4. Enter the workspace that you would like to publish your layer to
 5. Click "Dir" button to open directory dialog
 ![Directory Dialog](../../../../assets/geoserver/geoimporter_03.png)
+7. In the directory dialog, select all of the layers that you would like to upload
 6. Click "Import" to upload & publish the selected layers to your Geoserver
 
 There will be a output console in the background to show confirmations that the layer has been uploaded, and if there are any error, the program will dump the error in the console.
