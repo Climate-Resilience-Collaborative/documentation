@@ -72,6 +72,10 @@ export default defineConfig({
                 label: "Creating News Articles",
                 link: "/wordpress/guides/news-article/"
               },
+              {
+                label: "Adding Publications",
+                link: "/wordpress/guides/updating-publications/"
+              }
           ]},
         ],
         },
