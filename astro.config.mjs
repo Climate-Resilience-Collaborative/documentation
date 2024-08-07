@@ -63,6 +63,10 @@ export default defineConfig({
                 link: "/geoserver/guides/wms_arcgis/"
               },
               {
+                label: "Modifying Layer on Geoserver",
+                link: "/geoserver/guides/modifying_layer/"
+              },
+              {
                 label: "Layer Management",
                 link: "/geoserver/guides/layer_management/"
               }
