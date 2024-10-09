@@ -3,8 +3,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cri-lab.github.io',
-  base: '/crc-documentation',
+  site: 'https:/climate-resilience-collaborative.github.io',
+  base: '/documentation',
   integrations: [
     starlight({
       title: "CRC Documentation",
@@ -14,7 +14,7 @@ export default defineConfig({
       },
       favicon: "/crc-logo.svg",
       social: {
-        github: "https://github.com/CRI-lab",
+        github: "https://github.com/climate-resilience-collaborative",
       },
       sidebar: [
         {
