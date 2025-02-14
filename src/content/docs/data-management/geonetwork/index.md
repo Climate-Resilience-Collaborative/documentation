@@ -1,4 +1,7 @@
-# GeoNetwork Documentation
+---
+title: Geonetwork Documentation 
+description: Overview Documentation of Geonetwork
+---
 
 ## Overview
 GeoNetwork is an open-source catalog application designed for managing spatial metadata. It allows users to catalog, share, and visualize geospatial data while maintaining standardized metadata structures. This documentation guides how to log in, manage metadata, troubleshoot issues, and understand GeoNetwork’s role in the data management ecosystem.
