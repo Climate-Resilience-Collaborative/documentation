@@ -81,6 +81,12 @@ export default defineConfig({
                 link: "/wordpress/guides/updating-publications/"
               }
           ]},
+            { label: "Geonetwork", items: [
+              {
+                label: "Overview Guide",
+                link: "/data-management/geonetwork/"
+              },
+          ]},
         ],
         },
       ],
